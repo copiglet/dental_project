@@ -32,7 +32,12 @@ This project leverages deep learning and advanced medical imaging techniques to 
 - Models are deployable using Docker, ensuring accessibility and scalability in clinical environments.
 
 #### Model Output Examples
-- The `merged.png` file showcases the results obtained from the nnU-Net deep learning model trained on datasets of maxilla, mandible, root canal, and tooth. The images display the segmented 3D structures with clear differentiation of each anatomical area.
-- The `pdt.png` file presents the outcome of the nnU-Net model trained on datasets with manually labeled periodontitis disease. It illustrates the model's capability to identify and segment the disease-affected areas accurately.
+- The following image (`merged.png`) showcases the results obtained from the nnU-Net deep learning model trained on datasets of maxilla, mandible, root canal, and tooth. The images display the segmented 3D structures with clear differentiation of each anatomical area.
+  
+  ![Maxilla, Mandible, Root Canal, Tooth Segmentation](merged.png)
+
+- The following image (`pdt.png`) presents the outcome of the nnU-Net model trained on datasets with manually labeled periodontitis disease. It illustrates the model's capability to identify and segment the disease-affected areas accurately.
+  
+  ![Periodontitis Disease Segmentation](pdt.png)
 
 These visualizations demonstrate the effectiveness of our deep learning models in providing valuable insights for dental diagnostics and disease identification.
